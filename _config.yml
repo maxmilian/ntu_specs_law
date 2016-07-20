@@ -31,6 +31,9 @@ avatar: "/img/avatar.jpg"
 # List of links in the navigation bar
 nav-links:
   Home: ""
+  第一學期: "semester1"
+  第二學期: "semester2"
+  第三學期: "semester3"
   About: "about"
   Contact: "contact"
 
@@ -41,9 +44,6 @@ profile:
   name: Hsu, MingHung
   email: maxmilian@gmail.com
   github: maxmilian
-
-# To display link in the footer section
-pretty-url: "maxmilian.github.io/ntu_specs_law/"
 
 # --- Misc --- #
 
