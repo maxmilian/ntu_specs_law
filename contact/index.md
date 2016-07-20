@@ -10,7 +10,7 @@ comments: false
         <h4 class="text-primary">Contact</h4>
       </div>
       <div class="panel-body">
-            <form id="contactform" method="POST">
+            <form id="contactform" method="post" action="mailto:maxmilian@gmail.com" enctype="text/plain">
                   <div class="form-group">
                         <label for="name" class="control-label">Your name</label>
                         <input id="name" type="text" name="name" class="form-control">
@@ -29,8 +29,3 @@ comments: false
             </form>
       </div>
 </div>
-
-<script>
-    var contactform =  document.getElementById('contactform');
-    contactform.setAttribute('action', 'maxmilian@gmail.com');
-</script>
