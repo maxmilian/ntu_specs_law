@@ -10,6 +10,9 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 80px;
 }
+.list-group-item {
+  border: none;
+}
 .footer {
   position: absolute;
   bottom: 0;
