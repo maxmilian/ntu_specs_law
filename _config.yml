@@ -1,6 +1,6 @@
 # Build settings
 # Gems
-gems: 
+gems:
 - jekyll-paginate
 - jekyll-feed
 
@@ -9,18 +9,18 @@ gems:
 # If you are hosting it on Github for some project with name 'projectname', then the url and baseurl should look like:
 #url: "http://username.github.io/projectname"
 #baseurl: "/projectname"
-url: ""
+url: "http://maxmilian.github.io/ntu_specs_law"
 enforce_ssl: ""
-baseurl: "/jekyllBasic"
+baseurl: "/ntu_specs_law"
 
 # Title of website
-title: Project Name
+title: 台大法律學分班27C
 
 #Default keywords (used if no keywords are specified on a page basis)
-keywords: test1, test2, etc
+keywords: 法律學分班, 台大, etc
 
 # Short description of your site
-desc: Sample Description
+desc: 台大法律學分班錄音檔整理
 
 # --- Navigation bar options --- #
 
@@ -31,23 +31,19 @@ avatar: "/img/avatar.jpg"
 # List of links in the navigation bar
 nav-links:
   Home: ""
-  About Me: "aboutme"
-  Contact: "contact"  
-  
+  About: "about"
+  Contact: "contact"
+
 # --- Footer options --- #
 
-# If the values are empty, they are ignored 
+# If the values are empty, they are ignored
 profile:
-  name: Babji Chetty
-  email: Your-Email
-  facebook: your-fb-id
-  github: your-github-id 
-  twitter: your-twitter-id
-  linkedin: your-linkedin-id
-  stackoverflow: your-stackoverflow-id
+  name: Hsu, MingHung
+  email: maxmilian@gmail.com
+  github: maxmilian
 
 # To display link in the footer section
-pretty-url: "bchetty.com"
+pretty-url: "maxmilian.github.io/ntu_specs_law/"
 
 # --- Misc --- #
 
@@ -58,7 +54,7 @@ disqus: "Your-Disqus-Id"
 google_analytics: "Your-GA-Id"
 
 # Set these options as you need (For more information, check Jekyll's site)
-timezone: "Europe/Berlin"
+timezone: "Asia/Taipei"
 markdown: kramdown
 highlighter: rouge
 permalink: /blog/:title
@@ -87,5 +83,5 @@ exclude:
   - README.md
   - CNAME
 
-created-by: Babji, Chetty
-creator-url: https://bchetty.com
+created-by: Hsu, MingNung
+creator-url: https://github.com/maxmilian
