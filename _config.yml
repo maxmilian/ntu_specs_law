@@ -33,7 +33,6 @@ nav-links:
   Home: ""
   第一學期: "semester1"
   第二學期: "semester2"
-  第三學期: "semester3"
   About: "about"
   Contact: "contact"
 
@@ -47,18 +46,8 @@ profile:
 
 # --- Misc --- #
 
-# Your Disqus profile (shortname) settings
-disqus: "Your-Disqus-Id"
-
-# Google Analytics Settings
-google_analytics: "Your-GA-Id"
-
 # Set these options as you need (For more information, check Jekyll's site)
 timezone: "Asia/Taipei"
-markdown: kramdown
-highlighter: rouge
-permalink: /blog/:title
-paginate: 5
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
@@ -83,5 +72,5 @@ exclude:
   - README.md
   - CNAME
 
-created-by: Hsu, MingNung
+created-by: Max Hsu
 creator-url: https://github.com/maxmilian

@@ -3,8 +3,7 @@ layout: template1
 comments: false
 ---
 
-Feel like writing something to me?!<br/>
-Use the below form and feel free to shoot a message! :)
+有任何問題，歡迎透過以下表單聯繫我。
 
 <div class="panel panel-default shadow1">
       <div class="panel-heading">
@@ -24,7 +23,7 @@ Use the below form and feel free to shoot a message! :)
                         <label for="msg" class="control-label">Your message</label>
                         <textarea id="msg" name="message" class="form-control"></textarea>
                   </div>
-                
+
                   <input type="text" name="_gotcha" style="display:none" />
                   <input type="submit" value="Shoot!" class="btn btn-primary">
             </form>
@@ -33,5 +32,5 @@ Use the below form and feel free to shoot a message! :)
 
 <script>
     var contactform =  document.getElementById('contactform');
-    contactform.setAttribute('action', '//formspree.io/' + 'bchetty' + '@' + 'somemail' + '.' + 'com');
+    contactform.setAttribute('action', 'maxmilian@gmail.com');
 </script>
