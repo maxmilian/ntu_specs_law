@@ -1336,6 +1336,7 @@ mark,
 }
 .text-muted {
   color: #777;
+  text-align: center;
 }
 .text-primary {
   color: #337ab7;
