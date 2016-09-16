@@ -7,11 +7,15 @@ gems:
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 # If you are hosting it on Github for some project with name 'projectname', then the url and baseurl should look like:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
 url: "http://maxmilian.github.io/ntu_specs_law"
 enforce_ssl: ""
 baseurl: "/ntu_specs_law"
+file_semester1: "https://s3-ap-northeast-1.amazonaws.com/maxmilian-ntu-specs-law/semester1"
+file_semester2: "https://s3-ap-northeast-1.amazonaws.com/maxmilian-ntu-specs-law/semester2"
+file_semester3: "https://s3-ap-northeast-1.amazonaws.com/maxmilian-ntu-specs-law/semester3"
+file_elective: "https://s3-ap-northeast-1.amazonaws.com/maxmilian-ntu-specs-law/elective"
+
+encoding: utf-8
 
 # Title of website
 title: 台大法律學分班27C
@@ -22,35 +26,16 @@ keywords: 法律學分班, 台大, etc
 # Short description of your site
 desc: 台大法律學分班錄音檔整理
 
-# --- Navigation bar options --- #
-
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar.jpg"
 
 # List of links in the navigation bar
 nav-links:
-  Home: ""
-  第一學期: "semester1"
   第二學期: "semester2"
+  選修: "elective"
   上傳說明: "upload"
-  About: "about"
   Contact: "contact"
-
-# --- Footer options --- #
-
-# If the values are empty, they are ignored
-profile:
-  name: Hsu, MingHung
-  email: maxmilian@gmail.com
-  github: maxmilian
 
 # --- Misc --- #
 
-# Set these options as you need (For more information, check Jekyll's site)
-timezone: "Asia/Taipei"
-
-# Default YAML values (more information on Jekyll's site)
 defaults:
   -
     scope:
@@ -71,7 +56,6 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
-  - CNAME
 
 created-by: Max Hsu
 creator-url: https://github.com/maxmilian
