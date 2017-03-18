@@ -24,8 +24,11 @@ enforcement_act_ra_record: "https://s3-ap-northeast-1.amazonaws.com/maxmilian-nt
 intellectual_property_record: "https://s3-ap-northeast-1.amazonaws.com/maxmilian-ntu-specs-law/elective/intellectual_property/records"
 intellectual_property_ra_record: "https://s3-ap-northeast-1.amazonaws.com/maxmilian-ntu-specs-law/elective/intellectual_property/ra_records"
 
-commercial_record: "https://s3-ap-northeast-1.amazonaws.com/maxmilian-ntu-specs-law/semester3/commercial/records"
-commercial_ra_record: "https://s3-ap-northeast-1.amazonaws.com/maxmilian-ntu-specs-law/semester3/commercial/ra_records"
+insurance_record: "https://s3-ap-northeast-1.amazonaws.com/maxmilian-ntu-specs-law/semester3/insurance/records"
+insurance_ra_record: "https://s3-ap-northeast-1.amazonaws.com/maxmilian-ntu-specs-law/semester3/insurance/ra_records"
+
+company_record: "https://s3-ap-northeast-1.amazonaws.com/maxmilian-ntu-specs-law/semester3/company/records"
+company_ra_record: "https://s3-ap-northeast-1.amazonaws.com/maxmilian-ntu-specs-law/semester3/company/ra_records"
 
 adminitrative_record: "https://s3-ap-northeast-1.amazonaws.com/maxmilian-ntu-specs-law/semester3/adminitrative/records"
 adminitrative_ra_record: "https://s3-ap-northeast-1.amazonaws.com/maxmilian-ntu-specs-law/semester3/adminitrative/ra_records"
