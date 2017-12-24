@@ -2,6 +2,8 @@
 
 本著利用自己網頁專長來服務班上同學的心態，把一些同學錄製的錄音檔放置github page。以方便同學在課後可以複習使用。
 
+網址: [https://maxmilian.github.io/ntu_specs_law/](https://maxmilian.github.io/ntu_specs_law/)
+
 # 技術上
 使用 [Jekyll](https://jekyllrb.com/) 來實作此靜態網站，並使用 [bchetty](https://github.com/bchetty/jekyllBasic) 的主題。
 
