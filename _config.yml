@@ -54,14 +54,14 @@ desc: 台大法律學分班錄音檔整理
 
 # List of links in the navigation bar
 nav-links:
-  #第一學期: "semester1"
-  #第二學期: "semester2"
-  #第三學期: "semester3"
-  #選修: "elective"
-  第一學期: "empty"
-  第二學期: "empty"
-  第三學期: "empty"
-  選修: "empty"
+  第一學期: "semester1"
+  第二學期: "semester2"
+  第三學期: "semester3"
+  選修: "elective"
+  # 第一學期: "empty"
+  # 第二學期: "empty"
+  # 第三學期: "empty"
+  # 選修: "empty"
   上傳說明: "upload"
   Contact: "contact"
 
